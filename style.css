@@ -67,6 +67,7 @@ select{
 .addtocart{
   background-color: rgba(0, 122, 153, 0.744);
   border: none;
+  width: 100%;
   
 }
 .search-icon{
@@ -457,4 +458,6 @@ b{
     width: 280px !important;
   }
 }
-
+.itemstyle{
+  display: none !important;
+}
