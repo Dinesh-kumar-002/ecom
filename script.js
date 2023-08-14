@@ -145,7 +145,7 @@ function displayAll() {
             <p class="card-text price">Rs.${item.price}</p>
             <p class="card-text id d-none">${item.id}</p>
             <a class="btn btn-add btn-primary addtocart align-center" onclick="addToCart(this)">Add to cart</a>
-            <div class="itemstyle float-end d-flex mt-2 mt-lg-0">
+            <div class="itemstyle1 float-end d-flex mt-2 mt-lg-0">
               <button class="btn btn-danger minus fw-bold fs-4 d-flex justify-content-center align-items-center " onclick="minus(this)">-</button>
               <input type="number" id="qtyInput"  max="10" value="1" class="input-text bg-white" disabled />
               <button class="btn btn-success add fw-bold fs-4 d-flex justify-content-center align-items-center" onclick="add(this)">+</button>
@@ -172,7 +172,7 @@ function display(category) {
       <p class="card-text price">Rs.${item.price}</p>
       <p class="card-text id d-none">${item.id}</p>
       <a class="btn btn-add btn-primary addtocart align-center" onclick="addToCart(this)">Add to cart</a>
-      <div class="itemstyle float-end d-flex mt-2 mt-lg-0">
+      <div class="itemstyle1 float-end d-flex mt-2 mt-lg-0">
         <button class="btn btn-danger minus fw-bold fs-4 d-flex justify-content-center align-items-center " onclick="minus(this)">-</button>
         <input type="number" id="qtyInput"  max="10" value="1" class="input-text bg-white" disabled />
         <button class="btn btn-success add fw-bold fs-4 d-flex justify-content-center align-items-center" onclick="add(this)">+</button>
@@ -213,7 +213,7 @@ function searchDisplay(x) {
             <p class="card-text price">Rs.${item.price}</p>
             <p class="card-text id d-none">${item.id}</p>
             <a class="btn btn-add btn-primary addtocart align-center" onclick="addToCart(this)">Add to cart</a>
-            <div class="itemstyle float-end d-flex mt-2 mt-lg-0">
+            <div class="itemstyle1 float-end d-flex mt-2 mt-lg-0">
               <button class="btn btn-danger minus fw-bold fs-4 d-flex justify-content-center align-items-center " onclick="minus(this)">-</button>
               <input type="number" id="qtyInput"  max="10" value="1" class="input-text bg-white" disabled/>
               <button class="btn btn-success add fw-bold fs-4 d-flex justify-content-center align-items-center" onclick="add(this)">+</button>
