@@ -389,12 +389,12 @@ const updatedPrice = item_total_price_value;
 const updatedItem = value;
 
 const productIndex = products.findIndex((product) => product.pid === productIdToUpdate);
-console.log(productIndex);
+
 
 if (productIndex !== -1) {
   products[productIndex].ppricetotal = updatedPrice;
   products[productIndex].pitem = updatedItem;
-  console.log('Product price updated successfully!');
+  
 } else {
   console.log('Product not found.');
 }
